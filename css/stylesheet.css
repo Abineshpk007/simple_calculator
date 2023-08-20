@@ -25,13 +25,10 @@
     border-radius: 20px;
     box-shadow: 5px 5px 2px rgb(72 71 123);
     font-size: 20px;
-    color: #979df1;
+    color: #ffffff;
     cursor: pointer;
     margin: 10px;
-    background-color: #18057b;
-}
-input::placeholder{
-    color: #fff;
+    background-color: #ff3005a6;
 }
 .display {
     display: flex;
@@ -42,10 +39,13 @@ input::placeholder{
     padding-bottom: 10px;
 }
 
-.output {
-    text-align: center;
+.display .output {
+    text-align: right;
+    padding:2px;
+    background-color: #fff;
+    color: #000;
     flex: 1;
-    font-size: 20px;
+    font-size: 40px;
     box-shadow: none;
 }
 .display input{
@@ -53,18 +53,16 @@ input::placeholder{
     font-size:xx-large;
 }
 
-form input:nth-child(4){
-    color: #ef3fe8eb;
-}
-form .operators input{
-    color: #ef3fe8eb;
+form input:nth-child(4),
+input.equal,
+.operators input{
+    color: #000000eb;
 }
 form input.equal{
     width: 140px;
-    color: #ef3fe8eb;
 }
 form{
     border-radius: 3%;
     padding: 5px;
-    background-color: #0a88ef59;
+    background-color: #0000008f;
 }
